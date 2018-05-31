@@ -1,0 +1,32 @@
+{
+  "name": "web-component",
+  "version": "0.0.0",
+  "description": "web component study",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesonhu/web-component.git"
+  },
+  "keywords": [
+    "web",
+    "component"
+  ],
+  "author": "Jesonhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesonhu/web-component/issues"
+  },
+  "homepage": "https://github.com/Jesonhu/web-component#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
